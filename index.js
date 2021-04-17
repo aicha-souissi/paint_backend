@@ -22,7 +22,7 @@ app.use('/magasins',magasinRoute);
 app.use('/project',projectRoute); 
 app.use('/usersApps',usersAppsRoute);
 
-
+//c'est juste un commentaire pour  tester git 
 
 mongoose.connect(process.env.MONGO_URI,{useNewUrlParser:true,useUnifiedTopology:true}).then(()=>{
     console.log('connected to database...')
